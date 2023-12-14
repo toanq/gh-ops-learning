@@ -12,9 +12,10 @@ jobs:
   printInputs:
     runs-on: ubuntu-latest
     steps:
-    - run: |
-        echo "Log level: ${{ github.event.inputs.logLevel }}"
-        echo "Tags: ${{ github.event.inputs.tags }}" 
+    - name: "Hi"
+    - run: echo "Hi"
+    - name: "There"
+    - run: echo "There"
   printInputs2:
     runs-on: ubuntu-latest
     steps:
