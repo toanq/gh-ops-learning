@@ -15,7 +15,7 @@ jobs:
     - name: "Hi"
       run: echo "Hi"
     - name: "There"
-      run: echo "There" >> $GITHUB_OUTPUT
+      run: echo "Hi=There" >> $GITHUB_OUTPUT
   printInputs2:
     needs: [printInputs]
     runs-on: ubuntu-latest
