@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: "Hi"
-    - run: echo "Hi"
+      run: echo "Hi"
     - name: "There"
-    - run: echo "There"
+      run: echo "There"
   printInputs2:
     runs-on: ubuntu-latest
     steps:
