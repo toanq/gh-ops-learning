@@ -17,12 +17,14 @@ jobs:
     - name: "There"
       run: echo "There"
   printInputs2:
+    needs: [printInputs]
     runs-on: ubuntu-latest
     steps:
     - run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
         echo "Tags: ${{ github.event.inputs.tags }}" 
   printInputs3:
+    needs: [printInputs2]
     runs-on: ubuntu-latest
     steps:
     - run: |
