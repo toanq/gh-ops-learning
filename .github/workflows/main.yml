@@ -15,3 +15,15 @@ jobs:
     - run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
         echo "Tags: ${{ github.event.inputs.tags }}" 
+  printInputs2:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Log level: ${{ github.event.inputs.logLevel }}"
+        echo "Tags: ${{ github.event.inputs.tags }}" 
+  printInputs3:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Log level: ${{ github.event.inputs.logLevel }}"
+        echo "Tags: ${{ github.event.inputs.tags }}" 
